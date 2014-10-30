@@ -117,8 +117,8 @@ def main():
 
 	plt.errorbar(ph1, mag, magerr, fmt=".k", capsize=2, label='data')
 	
-	plt.plot(t, mu, 'k:', label='best fit')
-
+	#plt.plot(t, mu, 'k:', label='best fit')
+	plt.fill_between(t, mu-std, mu+std)
 	plt.legend(loc=0)	
 	plt.ylim(plt.ylim()[::-1])
 	plt.show()
