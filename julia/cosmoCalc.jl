@@ -1,3 +1,9 @@
+#=
+CosmoCalc, a distance modulus calculator for given cosmological parameters. 
+
+=#
+
+
 H0=70
 WM=0.27
 WV=0.73
